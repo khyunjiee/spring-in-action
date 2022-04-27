@@ -1,4 +1,4 @@
-package com.example.demo;
+package tacos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
