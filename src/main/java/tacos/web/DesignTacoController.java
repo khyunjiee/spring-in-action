@@ -32,6 +32,7 @@ public class DesignTacoController {
                 new Ingredient("SRCR", "Sour Cream", Ingredient.Type.SAUCE)
         );
 
+        // 식자재 유형을 List 에서 필터링
         Ingredient.Type[] types = Ingredient.Type.values();
         for (Ingredient.Type type: types) {
             model.addAttribute(type.toString().toLowerCase(), filterByType(ingredients, type));
