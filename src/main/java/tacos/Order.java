@@ -11,7 +11,7 @@ public class Order {
     private String deliveryState;
     private String deliveryZip;
     private String ccNumber;
-    private String ccExpirationme;
+    private String ccExpiration;
     private String ccCVV;
 
 }
